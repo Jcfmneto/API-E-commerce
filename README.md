@@ -22,7 +22,6 @@ API de e-commerce com integração de pagamentos usando Stripe.
 
 - Node.js (versão 14 ou superior)
 - PostgreSQL
-- Redis
 - Conta no Stripe
 
 ## 🔧 Instalação
@@ -102,6 +101,7 @@ src/
 ### Usuários
 - `POST /users/register` - Registro de usuário
 - `POST /users/login` - Login de usuário
+- `POST /users/logout` -Logout de usuário
 
 ### Produtos
 - `GET /products` - Lista todos os produtos
@@ -118,7 +118,6 @@ src/
 
 ### Pagamentos
 - `POST /checkout/:userId` - Inicia processo de checkout
-- `GET /success` - Processa pagamento bem-sucedido
 
 ## 🤝 Contribuindo
 
@@ -128,10 +127,8 @@ src/
 4. Push para a branch (`git push origin feature/AmazingFeature`)
 5. Abra um Pull Request
 
-## 📝 Licença
 
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ## ✨ Autores
 
-* **Seu Nome** - *Trabalho Inicial* - [seu-usuario](https://github.com/seu-usuario) 
+* Julio César * 
