@@ -8,14 +8,14 @@ API de e-commerce com integração de pagamentos usando Stripe.
 - Gerenciamento de produtos
 - Carrinho de compras
 - Integração com Stripe para pagamentos
-- Sistema de mensageria para processamento assíncrono de pagamentos
+
 
 ## 🛠️ Tecnologias
 
 - Node.js
 - Express
 - PostgreSQL
-- Redis (para mensageria)
+- JWT usando cookies para autenticação
 - Stripe (para pagamentos)
 
 ## 📋 Pré-requisitos
@@ -74,10 +74,6 @@ JWT_SECRET=seu_jwt_secret
 
 # Stripe
 STRIPE_SECRET_KEY=sua_chave_secreta_stripe
-STRIPE_WEBHOOK_SECRET=seu_webhook_secret_stripe
-
-# Redis
-REDIS_URL=redis://localhost:6379
 
 # Frontend URL
 FRONTEND_URL=http://localhost:3000
